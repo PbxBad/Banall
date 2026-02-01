@@ -1,0 +1,30 @@
+{
+  "name": "telegram-mass-action-bot",
+  "version": "1.0.0",
+  "description": "Advanced Telegram Bot with Mass Actions - BanAll, UnbanAll, KickAll, MuteAll, UnmuteAll",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "banall",
+    "mass-actions",
+    "admin-tools"
+  ],
+  "author": "BadMunda",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.15.0",
+    "dotenv": "^16.3.1",
+    "mongodb": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
